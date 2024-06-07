@@ -23,8 +23,9 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text>
-        Build, install, and run this once, then change this message slightly, rebuild,
-        update the installation, and run again.  An alert occurs.
+        Build, install, and run this once, then npx expo (un)install some other 
+        expo library (this time, expo-print), rebuild, update the installation,
+        and run again.  An alert occurs.
       </Text>
       <StatusBar style="auto" />
     </View>
