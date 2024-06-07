@@ -25,6 +25,12 @@
     },
     "plugins": [
       "expo-secure-store"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "90ef1615-0ba4-4959-8266-4bd8cb9af516"
+      }
+    },
+    "owner": "timheilman"
   }
 }
