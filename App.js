@@ -22,7 +22,10 @@ export default function App() {
   });
   return (
     <View style={styles.container}>
-      <Text>Run this once, make a small change, rebuild, and run again to get the error reproduced.</Text>
+      <Text>
+        Build, install, and run this once, then change this message slightly, rebuild,
+        update the installation, and run again.  An alert occurs.
+      </Text>
       <StatusBar style="auto" />
     </View>
   );
